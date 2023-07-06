@@ -97,7 +97,7 @@ public class InputProcessorImp implements InputProcessor {
         BigInteger operand1 = decode(number1, lang);
         BigInteger operand2 = decode(number2, lang);
         
-        if(operation.equals("sum")) {
+        if(operation.equals("add")) {
         	return operand1.add(operand2);
         } else if(operation.equals("sub")) {
         	return operand1.subtract(operand2);
